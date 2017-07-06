@@ -26,7 +26,7 @@ class App extends React.Component {
 }
 
 const Widget = (props) =>
-<input type-"text" onChange={props.update} />
+<input type="text" onChange={props.update} />
 
 App.propTypes = {
   txt: React.PropTypes.string,
