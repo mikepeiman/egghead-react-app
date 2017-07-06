@@ -1,0 +1,561 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"name",
+				"nameSubmit"
+			],
+			[
+				"nam",
+				"nameSubmit"
+			],
+			[
+				"main",
+				"main-black"
+			],
+			[
+				"lead",
+				"leadParagraph"
+			],
+			[
+				"text",
+				"textAnimation2"
+			],
+			[
+				"subtitle",
+				"subtitleLetter"
+			],
+			[
+				"ra",
+				"Raleway"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"about",
+				"about-block-heading"
+			],
+			[
+				"powder",
+				"powder"
+			],
+			[
+				"stres",
+				"stress-and-anxiety"
+			],
+			[
+				"pa",
+				"reduces-pain"
+			],
+			[
+				"who",
+				"whole-foods"
+			],
+			[
+				"stre",
+				"stress-and-anxiety"
+			],
+			[
+				"produ",
+				"product-card"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"cate",
+				"category-benefits-up"
+			],
+			[
+				"category-",
+				"category-benefits"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-flex"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"buy-",
+				"buy-now-button"
+			],
+			[
+				"second",
+				"second-color"
+			],
+			[
+				"bg",
+				"bg-image-2"
+			],
+			[
+				"fifth",
+				"fifth-accent"
+			],
+			[
+				"frow",
+				"frow-container"
+			],
+			[
+				"third",
+				"third-color"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"third-",
+				"third-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"nth",
+				"nth-of-type"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 517.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Mike/Desktop/react-app"
+	],
+	"file_history":
+	[
+		"/D/Web/frow-mikepeiman/index.html",
+		"/C/Users/Mike/Desktop/helloreact/react-3-2-hello-react/public/index.html",
+		"/C/Users/Mike/Desktop/helloreact/package.json",
+		"/D/Web/frow-mikepeiman/js/velocity.js.min",
+		"/D/Web/bbn/resources/views/cart/show.blade.php",
+		"/D/Web/bbn/resources/views/store/parts/sidebar.blade.php",
+		"/D/Web/bbn/app/Http/Controllers/PublicController.php",
+		"/D/Web/bbn/public/index.php",
+		"/D/Web/bbn/app/Http/Controllers/Auth/LoginController.php",
+		"/D/Web/bbn/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/D/Web/bbn/resources/views/auth/login.blade.php",
+		"/D/Web/bbn/resources/views/auth/passwords/reset.blade.php",
+		"/D/Web/bbn/resources/views/auth/register.blade.php",
+		"/D/Web/bbn/resources/views/auth/passwords/email.blade.php",
+		"/D/Web/bbn/resources/views/user/profile.blade.php",
+		"/D/Web/bbn/resources/views/store/catalog.blade.php",
+		"/D/Web/bbn/resources/views/store/parts/contact.blade.php",
+		"/D/Web/bbn/resources/views/store/faq.blade.php",
+		"/D/Web/bbn/resources/views/store/parts/footer.blade.php",
+		"/D/Web/bbn/storage/framework/views/5ced1f5f2a5c1981a795463a26245ddfbca11404.php",
+		"/D/Web/bbn/storage/framework/views/11d12072baeab17cb9449e24248afc8640504399.php",
+		"/D/Web/bbn/config/database.php",
+		"/D/Web/frow-mikepeiman/_site/shop.html",
+		"/D/Web/frow-mikepeiman/_includes/subpage-products-grid.html",
+		"/D/Web/hdn/.env",
+		"/D/Web/frow-mikepeiman/_posts/2017-05-09-My-Top-Supplements.md",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/.htaccess",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/.htaccess 2",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/settings.php",
+		"/C/Users/Mike/AppData/Local/Temp/fz3temp-2/wp-config 2.php",
+		"/D/Web/frow-mikepeiman/js/simplescroll.js",
+		"/D/Web/frow-mikepeiman/_posts/2017-05-09-My-Top-Supplements-Sorted.md",
+		"/D/Web/frow-mikepeiman/font-awesome/scss/_variables.scss",
+		"/D/Web/icons/Read Me.txt"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"*.php",
+			"",
+			".env",
+			"",
+			"*.*",
+			"*.html",
+			"*.*",
+			"*.*.php",
+			"*.html, *.scss",
+			"*.html, *.scss, *.css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"/",
+			"name",
+			"nameSubmit",
+			"nameValue",
+			"name",
+			"font-family",
+			"button",
+			"media",
+			"greeting",
+			"lead-p",
+			"intro-te",
+			"header ",
+			"nav ",
+			"nav-menu",
+			"intro-te",
+			"about",
+			"greeting",
+			" h1",
+			"intro-text",
+			"greeting",
+			"options",
+			".lead-p",
+			"elements",
+			"site-nav",
+			"site-ti",
+			"homepage",
+			"underline-g",
+			"basic_price",
+			"input",
+			"product-tools",
+			"product-view-image",
+			"owl-item",
+			"isAdmin()",
+			"user",
+			"nofollow",
+			"head-extensions",
+			"meta name=\"robots",
+			"<META NAME=“ROBOTS”",
+			"src=\"/images/company/bbnlogo.png\"",
+			"src=\"/images/company/bbn-circle.gif\"",
+			"class=\"logo\" alt=\"Buy Bud Now Logo Buy Weed Online in Canada\"",
+			"logo",
+			" class=\"logo\"",
+			"logo",
+			"<a href",
+			"a href=\"/terms-and-conditions\"",
+			"@section('head')",
+			"publicController",
+			"@index",
+			" ",
+			"LoginController@showLoginForm",
+			"TESTDB",
+			"yield",
+			"@section('content')",
+			"@extends('store.basic')",
+			"title-case",
+			"h1",
+			"productsController",
+			"partials._image",
+			"product-filter",
+			"product-filter-top",
+			"navbar",
+			"navbar_",
+			"quote",
+			"lph-4",
+			"h2",
+			">\n",
+			"frow-container",
+			"frow-cont",
+			"signup-form-c",
+			"media",
+			",",
+			"immun",
+			"anxiolytic",
+			"    icon: \"fa-cogs\"",
+			"page-title",
+			"$user",
+			"localhost",
+			"forge",
+			"localhost",
+			"port",
+			"config.php",
+			"config",
+			"config.php",
+			"port",
+			"border",
+			"height ",
+			"isotope ",
+			"left ",
+			"shop-n",
+			"nav",
+			"grid",
+			".grid",
+			"float: rig",
+			"position: ab",
+			"supplements-json",
+			"supplement-json",
+			".products",
+			"\t\n",
+			"product-long",
+			"filter-button-group",
+			"url",
+			"filter",
+			".category ",
+			"buy-now-r",
+			"category",
+			"title",
+			"0,0,0",
+			"rgba(0,0,0,0)",
+			"post-header",
+			"1.5s",
+			".25s",
+			"img-small",
+			"greeting",
+			"dropca",
+			"lead-p",
+			"intro-te",
+			"intro-",
+			"body-p",
+			"signup-form-",
+			"single-prod",
+			"last-child",
+			"longde",
+			"categories-p",
+			"height:",
+			"unit-pric",
+			"lead-pa",
+			"about"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\",
+			"nameSubmit",
+			"name",
+			"nameSubmit",
+			"o",
+			"e",
+			"src=\"/images/company/bbnlogo.png\" alt=\"Buy Bud Now Logo Buy Weed Online in Canada\"",
+			"src=\"/images/company/bbn-circle.gif\" alt=\"Buy Bud Now Logo Buy Weed Online in Canada\"",
+			" class=\"logo\"",
+			" class=\"logo\" alt=\"Buy Bud Now Logo Buy Weed Online in Canada\"",
+			"",
+			"TEST_DB",
+			"product_filter",
+			"product_filter_top",
+			"product-filter",
+			"product-filter-",
+			"p",
+			"",
+			"stress-and-anxiety",
+			"",
+			"root",
+			"127.0.0.1",
+			"boink",
+			"supplements",
+			"shortname",
+			"51,255,0",
+			"$second-color",
+			".75s",
+			"1.5s",
+			"} per {",
+			"",
+			"rgba(0,0,0,0);",
+			"\"100g\"",
+			"",
+			"global-unit",
+			"detail\"><span class=\"",
+			"\"product-detail product-",
+			"\"product-detail product-price",
+			"fourth",
+			"unit",
+			"product.categories",
+			"li"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "C:\\Users\\Mike\\Desktop\\react-app"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"shop",
+				"_layouts\\shop-page.html"
+			],
+			[
+				"varia",
+				"node_modules\\frow\\sass\\frow\\_variables.scss"
+			],
+			[
+				"routec",
+				"vendor\\symfony\\routing\\RouteCollection.php"
+			],
+			[
+				"sideb",
+				"resources\\views\\store\\parts\\sidebar.blade.php"
+			],
+			[
+				"profile",
+				"resources\\views\\user\\profile.blade.php"
+			],
+			[
+				"footer",
+				"resources\\views\\store\\parts\\footer.blade.php"
+			],
+			[
+				"index",
+				"public\\index.php"
+			],
+			[
+				"web",
+				"routes\\web.php"
+			],
+			[
+				"authen",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\AuthenticatesUsers.php"
+			],
+			[
+				"loginc",
+				"app\\Http\\Controllers\\Auth\\LoginController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
