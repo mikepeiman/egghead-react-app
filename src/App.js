@@ -18,6 +18,11 @@ class App extends React.Component {
     let cat = this.state.cat;
     return (
       <div>
+      <Button>I <Heart /> React</Button>
+        <h1>{ txt }</h1>
+        <Widget update={this.update.bind(this)} />
+        <h1>{ txt }</h1>
+        <Widget update={this.update.bind(this)} />
         <h1>{ txt }</h1>
         <Widget update={this.update.bind(this)} />
       </div>
@@ -25,6 +30,13 @@ class App extends React.Component {
   }
 }
 
+class Heart extends React.Component {
+  render() {
+    return <span>&hearts;</span>
+  }
+}
+const Button = (props) => 
+<button>{props.children}</button>
 const Widget = (props) =>
 <input type="text" onChange={props.update} />
 
