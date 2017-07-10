@@ -1,38 +1,45 @@
-import React from 'react'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 class App extends React.Component {
-  constructor(){
+  constructor() {
     super();
-    this.state = {currentEvent: '---'}
-    this.update = this.update.bind(this)
+    this.state = {a: ''}
   }
-  update(e){
-    this.setState({currentEvent: e.type})
+  update(e) {
+    this.setState({
+      a: this.a.refs.message.value, 
+      // the refs of "a" component and the value of "message" element
+      // if node is not nested you can use
+      // a: ReactDOM.findDOMNode(this.a).value,
+      b: this.b.value 
+      // if using simple ref in component ref="b"
+      // b: this.refs.b.value
+    })
   }
   render() {
     return (
       <div>
-        <textarea
-        cols="30" 
-        rows="10"
-        onKeyPress={this.update}
-        onCopy={this.update}
-        onCut={this.update}
-        onPaste={this.update}
-        onFocus={this.update}
-        onBlur={this.update}
-        onClick={this.update}
-        onDoubleClick={this.update}
-        onTouchStart={this.update}
-        onTouchMove={this.update}
-        onTouchEnd={this.update}
-        />
-          <h1>
-            {this.state.currentEvent}
-          </h1>
+       <Widget 
+        ref={ component => this.a = component } // ref="a"
+        update={this.update.bind(this)}
+      /> {this.state.a}
+      <hr />
+      <input 
+      ref={ node => this.b = node } // ref="b"
+        type="text" 
+        onChange={this.update.bind(this)}
+      /> {this.state.b}
       </div>
     )
   }
 }
 
+class Widget extends React.Component {
+  render() {
+    return (
+      <div><input ref="message" type="text" onChange={this.props.update} /></div>
+    )
+  }
+}
 export default App
