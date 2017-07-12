@@ -6,39 +6,46 @@ import './font-awesome-4.7.0/css/font-awesome.css';
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {increasing: false}
+    this.state = {items: []}
   }
-  update(){
-    ReactDOM.render(
-      <App val={this.props.val+1} />,
-      document.getElementById('root'))
+  componentWillMount() {
+    fetch( 'http://swapi.co/api/people/?format=json' )
+    .then( response => response.json() )
+    .then( ({results: items}) => this.setState({items}))
   }
-  componentWillReceiveProps(nextProps){
-    this.setState({increasing: nextProps.val > this.props.val})
-    console.log('after setState: ' + this.props.val)
-  }
-  shouldComponentUpdate(nextProps, nextState) {
-    if (nextProps.val % 5 === 0) {
-      console.log('next props = ' + nextProps.val);
-      return nextProps.val;
-    }
-  }
-  
+//   render() {
+//     let items = this.state.items
+//     return (
+//       <div>
+//         {items.map(item => 
+//           <h4 key={item.name}>{item.name}</h4>)}
+//       </div>
+//     )
+//   }
+// }
 
-  render() {
-    console.log(this.state.increasing)
-    return (
-        <button onClick={this.update.bind(this)}>
-          {this.props.val}
-        </button>
-      )
-  }
-  componentDidUpdate(prevProps, prevState) {
-    console.log('prev props: ' + prevProps.val)
-    // doesn't work: console.log('prev props: ${prevProps.val}')
-  }
+// export default App
+// 
+filter(e) {
+  this.setState({filter: e.target.value})
 }
 
-App.defaultProps = {val: 0}
+  render() {
+    let items = this.state.items
+    if(this.state.filter) {
+      items = items.filter( item =>
+        item.name.toLowerCase()
+        .includes(this.state.filter.toLowerCase()))
+    }
+    return (
+      <div>
+        <input type="text" onChange={this.filter.bind(this)} />
+        {items.map(item => 
+          <Person key={item.name} person={item} />)}
+      </div>
+    )
+  }
+}
+const Person = (props) => <h4>{props.person.name}</h4>
 
 export default App
