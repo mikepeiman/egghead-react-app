@@ -6,47 +6,39 @@ import './font-awesome-4.7.0/css/font-awesome.css';
 class App extends React.Component {
   constructor() {
     super();
-    this.state = {a: ''}
+    this.state = {increasing: false}
   }
-  update(e) {
-    this.setState({
-      a: this.a.refs.message.value, 
-      // the refs of "a" component and the value of "message" element
-      // if node is not nested you can use
-      // a: ReactDOM.findDOMNode(this.a).value,
-      b: this.b.value 
-      // if using simple ref in component ref="b"
-      // b: this.refs.b.value
-    })
+  update(){
+    ReactDOM.render(
+      <App val={this.props.val+1} />,
+      document.getElementById('root'))
   }
+  componentWillReceiveProps(nextProps){
+    this.setState({increasing: nextProps.val > this.props.val})
+    console.log('after setState: ' + this.props.val)
+  }
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextProps.val % 5 === 0) {
+      console.log('next props = ' + nextProps.val);
+      return nextProps.val;
+    }
+  }
+  
+
   render() {
+    console.log(this.state.increasing)
     return (
-      <div>
-       <Widget 
-        ref={ component => this.a = component } // ref="a"
-        update={this.update.bind(this)}
-      /> {this.state.a}
-      <hr />
-      <i className="fa fa-spinner fa-spin fa-3x fa-fw"></i> Icon
-      <hr />
-      <input 
-      ref={ node => this.b = node } // ref="b"
-        type="text" 
-        onChange={this.update.bind(this)}
-      /> {this.state.b}
-      </div>
-    )
+        <button onClick={this.update.bind(this)}>
+          {this.props.val}
+        </button>
+      )
+  }
+  componentDidUpdate(prevProps, prevState) {
+    console.log('prev props: ' + prevProps.val)
+    // doesn't work: console.log('prev props: ${prevProps.val}')
   }
 }
 
-class Widget extends React.Component {
-  render() {
-    return (
-      <div>
-      <input ref="message" type="text" onChange={this.props.update} />
-      
-      </div>
-    )
-  }
-}
+App.defaultProps = {val: 0}
+
 export default App
