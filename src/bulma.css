@@ -139,6 +139,9 @@ header {
 pre, textarea {
   width:  50%;
   padding:  1em;
+  overflow: wrap;
+  display: inline-block;
+  max-width:  50%;
 }
 textarea:focus {
   outline:  0;

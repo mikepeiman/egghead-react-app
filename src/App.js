@@ -36,7 +36,9 @@ class App extends React.Component {
           onChange={this.update.bind(this)}
           defaultValue={this.state.input} />
           <pre>
-            {this.state.output}
+            <p>
+              {this.state.output}
+            </p>
           </pre>
           </div>
       </div>
