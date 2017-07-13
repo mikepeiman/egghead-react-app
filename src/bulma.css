@@ -127,6 +127,22 @@ hgroup,
 section {
   display: block;
 }
+header {
+  height:  5vh;
+  background-color: lightgrey;
+  color:  red;
+}
+.container {
+  height:  95vh;
+  display:  flex;
+}
+pre, textarea {
+  width:  50%;
+  padding:  1em;
+}
+textarea:focus {
+  outline:  0;
+}
 
 body,
 button,
