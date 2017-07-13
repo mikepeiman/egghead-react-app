@@ -4,35 +4,45 @@ import './bulma.css';
 import './font-awesome-4.7.0/css/font-awesome.css';
 
 class App extends React.Component {
-  render() {
-    return (
-      <Buttons>
-        <button value="A">A</button>
-        <button value="B">B</button>
-        <button value="C">C</button>
-      </Buttons>
-      )
-  }
-}
-class Buttons extends React.Component {
   constructor() {
     super();
-    this.state = {selected: 'None'}
+    this.state = {
+      red: 0,
+      green: 0,
+      blue: 0
+    }
+    this.update = this.update.bind(this)
   }
-  selectItem(selected) {
-    this.setState({selected})
+  update(e){
+    this.setState({
+      red: ReactDOM.findDOMNode(this.refs.red.refs.inp).value,
+      green: ReactDOM.findDOMNode(this.refs.green.refs.inp).value,
+      blue: ReactDOM.findDOMNode(this.refs.blue.refs.inp).value
+    })
   }
   render() {
-    let fn = child =>
-      React.cloneElement(child, {
-        onClick: this.selectItem.bind(this, child.props.value)
-      })
-    let items = React.Children.map(this.props.children, fn)
     return (
       <div>
-        <h2>You have selected: {this.state.selected}</h2>
-        {items}
+        <Slider ref="red" update={this.update} />
+        {this.state.red}
+        <Slider ref="green" update={this.update} />
+        {this.state.green}
+        <Slider ref="blue" update={this.update} />
+        {this.state.blue}
       </div>)
+  }
+}
+
+class Slider extends React.Component {
+  render() {
+    return (
+      <div>
+        <input ref="inp" type="range"
+        min="0"
+        max="255"
+        onChange={this.props.update} />
+      </div>
+      );
   }
 }
 export default App
